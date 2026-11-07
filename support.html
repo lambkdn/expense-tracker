@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Support — Expense Tracker</title>
+    <meta name="description" content="Support and frequently asked questions for the Expense Tracker iOS app." />
+    <style>
+      :root {
+        --bg: #f4f5f7;
+        --card: #ffffff;
+        --border: #e1e4ea;
+        --text: #0b1220;
+        --muted: #5c6470;
+        --brand: #2563eb;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        padding: 48px 20px 80px;
+        background: var(--bg);
+        color: var(--text);
+        font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 40px 36px 48px;
+      }
+      h1 { margin: 0 0 4px; font-size: 30px; line-height: 1.2; letter-spacing: -0.02em; }
+      h2 { margin: 32px 0 8px; font-size: 18px; letter-spacing: -0.01em; }
+      p, li { color: #26303f; }
+      ul { padding-left: 20px; }
+      li { margin-bottom: 6px; }
+      .updated { margin: 0 0 8px; color: var(--muted); font-size: 14px; }
+      .contact {
+        margin: 24px 0 0;
+        padding: 16px 18px;
+        border: 1px solid #cfe0fd;
+        border-left: 3px solid var(--brand);
+        border-radius: 10px;
+        background: #f3f7ff;
+      }
+      .contact p { margin: 0; }
+      a { color: var(--brand); }
+      footer {
+        max-width: 720px;
+        margin: 20px auto 0;
+        text-align: center;
+        color: var(--muted);
+        font-size: 13px;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0b0d10;
+          --card: #15181d;
+          --border: #282d35;
+          --text: #f5f7fa;
+          --muted: #9ba3af;
+          --brand: #5b8def;
+        }
+        p, li { color: #c9d1dc; }
+        .contact { background: #1b2740; border-color: #2b4472; }
+      }
+      @media (max-width: 520px) {
+        body { padding: 20px 12px 48px; }
+        main { padding: 28px 20px 36px; border-radius: 12px; }
+        h1 { font-size: 24px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Support</h1>
+      <p class="updated">Expense Tracker: Ledger &middot; Version 1.0.0</p>
+
+      <div class="contact">
+        <p>
+          Need help or found a bug? Email
+          <a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a> and include your iOS
+          version and a short description of what happened. We usually reply within two business
+          days.
+        </p>
+      </div>
+
+      <h2>How do I add a transaction?</h2>
+      <p>
+        Tap the <strong>+</strong> button, pick a category, type the amount, then save. To log an
+        older purchase, use the date arrows to move the date back before saving. You can also
+        switch between income and expense with the toggle at the top of the form.
+      </p>
+
+      <h2>How do I unlock Premium insights?</h2>
+      <p>
+        Open the <strong>Store</strong> tab, buy the Basic Pack 1 credit pack once, then spend
+        50 credits to unlock Premium insights. The unlock is permanent and stored on your device.
+        There is no subscription and nothing renews.
+      </p>
+
+      <h2>I bought credits but they did not appear.</h2>
+      <p>
+        Make sure you are online, then reopen the Store tab. Apple replays any unfinished purchase
+        the next time the app starts, so the credits should arrive automatically. If they still do
+        not show up, email us with your Apple purchase receipt.
+      </p>
+
+      <h2>Do I need an account?</h2>
+      <p>
+        No. Expense Tracker has no sign-up, no login, and no cloud sync. Everything is stored
+        locally on your iPhone.
+      </p>
+
+      <h2>How do I delete my data?</h2>
+      <p>
+        Open <strong>Settings</strong> inside the app and use the reset option, or simply delete the
+        app from your device. Read more in the
+        <a href="./privacy.html">Privacy Policy</a>.
+      </p>
+
+      <h2>Does the app work offline?</h2>
+      <p>
+        Yes, entirely. The only feature that needs a connection is the App Store purchase itself.
+      </p>
+    </main>
+
+    <footer>Expense Tracker: Ledger &middot; <a href="./privacy.html">Privacy Policy</a></footer>
+  </body>
+</html>
